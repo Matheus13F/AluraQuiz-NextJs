@@ -1,0 +1,18 @@
+{
+    "bg": "https://images8.alphacoders.com/413/thumb-1920-413526.jpg",
+    "title": "titulo do Quiz",
+    "description": "Descrição do seu quiz aqui",
+    "questions": [],
+    "external": [],
+    "theme": {
+        "colors": {
+            "primary": "#561571",
+            "secondary": "#27632a",
+            "mainBg": "#111",
+            "contrastText": "#fff",
+            "wrong": "#ff5722",
+            "sucess": "#4caf50"
+        },
+        "borderRadius": "5px"
+    }
+}
