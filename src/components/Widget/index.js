@@ -4,7 +4,7 @@ const Widget = styled.div`
   margin-top: 25px;
   margin-bottom: 25px;
   border: 1px solid ${({ theme }) => theme.colors.secondary};
-  background-color: ${({theme}) => theme.colors.mainBg};
+  background-color: ${({ theme }) => theme.colors.mainBg};
   overflow: hidden;
 
   h1, h2, h3 {
@@ -15,10 +15,11 @@ const Widget = styled.div`
   }
 
   p {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 1;
   }
+
 `;
 
 Widget.Header = styled.header`
