@@ -1,17 +1,115 @@
 {
-    "bg": "https://images8.alphacoders.com/413/thumb-1920-413526.jpg",
+    "bg": "https://images6.alphacoders.com/711/thumb-1920-711930.jpg",
     "title": "titulo do Quiz",
     "description": "Descrição do seu quiz aqui",
-    "questions": [],
+    "questions": [
+        {
+            "image": "https://media.giphy.com/media/3oEjI1erPMTMBFmNHi/source.gif",
+            "title": "Na Batalha dos Bastardos, quem Jon Snow estava enfrentando?",
+            "description": "Jon Snow sofredor h",
+            "answer": 1,
+            "alternatives": [
+                "White Walkers",
+                "Ramsay Bolton",
+                "Cersei",
+                "Hodor"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/c6MfQ6dOO1lra/giphy.gif",
+            "title": "Qual comando Daenerys usa para os dragões cuspirem fogo",
+            "description": "My queen",
+            "answer": 0,
+            "alternatives": [
+                "Dracarys",
+                "Valar Morghulis",
+                "Fire",
+                "Targaryen"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/26vUJjhss4bBqJoOI/giphy.gif",
+            "title": "Qual a frase dita por Daenerys Targaryen depois que Khal Drogo mata seu irmão Vyseris?",
+            "description": "Coisa de Targaryano",
+            "answer": 1,
+            "alternatives": [
+                "Uma Coroa para um rei",
+                "Ele não era um dragão. Fogo não pode matar um dragão",
+                "No fim das contas, ele não cagava ouro",
+                "ele não possuía o sangue do dragão"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/l46CtSZN75aR6meE8/giphy.gif",
+            "title": "Qual o nome dos três dragões de Daenerys Targaryen?",
+            "description": "The mother of dragons",
+            "answer": 2,
+            "alternatives": [
+                "Drogon, Viserys e Aegon",
+                "Rhaego, Viserys e Drogo",
+                "Drogon, Viserion e Rhaegal",
+                "Dracarys, Viserion e Drogon."
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/xTcnTehwgRcbgymhTW/giphy.gif",
+            "title": "Qual o nome da espada dada a Jon Snow, pelo comandante da patrulha da noite?",
+            "description": "Logo depois de matar um caminhante branco",
+            "answer": 2,
+            "alternatives": [
+                "Luminífera",
+                "Stark",
+                "Garralonga",
+                "Agulha"
+            ]
+        },       
+        {
+            "image": "https://s.aficionados.com.br/imagens/aegon-rhaenys-visenya.jpg",
+            "title": "Qual foi o adjetivo dado ao primeiro Targaryen a se tornar rei de Westeros?",
+            "description": "Coisa de Targaryano",
+            "answer": 3,
+            "alternatives": [
+                "Aegon, o Soberano",
+                "Aegon, o Libertador",
+                "Aegon, o Dragão",           
+                "Aegon, o Conquistador"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/1eMtkS6cxcK2s/giphy.gif",
+            "title": "Quem ficou conhecida como The Queen In The North? (Rainha do Norte) ",
+            "description": "My Lady!",
+            "answer": 1,
+            "alternatives": [
+                "Arya Stark",
+                "Sansa Stark",
+                "Cersei",
+                "Daenerys Targaryen"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/d54lN7QyQMLI6hF4CL/giphy.gif",
+            "title": "Qual o ponto fraco dos Caminhantes Branco? (White Walkers) ",
+            "description": "My Lady!",
+            "answer": 0,
+            "alternatives": [
+                "Aço Valiriano e Vidro de Dragão",
+                "Fogo de dragão",
+                "D&D.........",
+                "Bran, The Broken"
+            ]
+        }
+        
+    ],
     "external": [],
     "theme": {
         "colors": {
-            "primary": "#561571",
-            "secondary": "#27632a",
-            "mainBg": "#111",
+            "primary": "#8257E6",
+            "secondary": "#04D361",
+            "mainBg": "#202024",
             "contrastText": "#fff",
             "wrong": "#ff5722",
-            "sucess": "#4caf50"
+            "success": "#4caf50"
         },
         "borderRadius": "5px"
     }

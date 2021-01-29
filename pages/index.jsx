@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import styled from 'styled-components';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import db from '../db.json';
@@ -11,7 +10,7 @@ import QuizBackground from '../src/components/QuizBackground';
 import QuizLogo from '../src/components/QuizLogo';
 import Input from '../src/components/Input';
 import Button from '../src/components/Button';
-import QuizContainer from '../src/components/Container';
+import QuizContainer from '../src/components/QuizContainer';
 
 
 export default function Home() {
@@ -37,6 +36,7 @@ export default function Home() {
           </Widget.Header>
           <Widget.Content>
             <p>Prove seu conhecimento dessa serie incrivel</p>
+
             <form onSubmit={(e) => handleSubmit(e)} >
               <Input
                 name="nomeDoUsuario"
