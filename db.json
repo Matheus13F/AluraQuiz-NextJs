@@ -1,12 +1,12 @@
 {
-    "bg": "https://images6.alphacoders.com/711/thumb-1920-711930.jpg",
+    "bg": "https://images7.alphacoders.com/311/thumb-1920-311824.jpg",
     "title": "The Game Of Thrones - Quiz",
-    "description": "Prove seu conhecimento sobre essa série incrivel (menos a ultima temporada kkkrying)",
+    "description": "Quando se joga o jogo dos tronos, você vence ou você morre! ",
     "questions": [
         {
             "image": "https://media.giphy.com/media/3oEjI1erPMTMBFmNHi/source.gif",
             "title": "Na Batalha dos Bastardos, quem Jon Snow estava enfrentando?",
-            "description": "Jon Snow sofredor h",
+            "description": "Virou patê pros doguinhos muahaha",
             "answer": 1,
             "alternatives": [
                 "White Walkers",
@@ -17,7 +17,7 @@
         },
         {
             "image": "https://media.giphy.com/media/c6MfQ6dOO1lra/giphy.gif",
-            "title": "Qual comando Daenerys usa para os dragões cuspirem fogo",
+            "title": "Qual comando Daenerys usa para os dragões cuspirem fogo?",
             "description": "My queen",
             "answer": 0,
             "alternatives": [
@@ -30,7 +30,7 @@
         {
             "image": "https://media.giphy.com/media/26vUJjhss4bBqJoOI/giphy.gif",
             "title": "Qual a frase dita por Daenerys Targaryen depois que Khal Drogo mata seu irmão Vyseris?",
-            "description": "Coisa de Targaryano",
+            "description": "Bem feito! Merecidissimo!",
             "answer": 1,
             "alternatives": [
                 "Uma Coroa para um rei",
@@ -42,7 +42,7 @@
         {
             "image": "https://media.giphy.com/media/l46CtSZN75aR6meE8/giphy.gif",
             "title": "Qual o nome dos três dragões de Daenerys Targaryen?",
-            "description": "The mother of dragons",
+            "description": "The mother of dragons!",
             "answer": 2,
             "alternatives": [
                 "Drogon, Viserys e Aegon",
@@ -66,7 +66,7 @@
         {
             "image": "https://s.aficionados.com.br/imagens/aegon-rhaenys-visenya.jpg",
             "title": "Qual foi o adjetivo dado ao primeiro Targaryen a se tornar rei de Westeros?",
-            "description": "Coisa de Targaryano",
+            "description": "Se fosse pra mim seria: o esfomeado!",
             "answer": 3,
             "alternatives": [
                 "Aegon, o Soberano",
@@ -78,7 +78,7 @@
         {
             "image": "https://media.giphy.com/media/1eMtkS6cxcK2s/giphy.gif",
             "title": "Quem ficou conhecida como The Queen In The North? (Rainha do Norte) ",
-            "description": "My Lady!",
+            "description": "O norte se lembra!",
             "answer": 1,
             "alternatives": [
                 "Arya Stark",
@@ -90,7 +90,7 @@
         {
             "image": "https://media.giphy.com/media/d54lN7QyQMLI6hF4CL/giphy.gif",
             "title": "Qual o ponto fraco dos Caminhantes Branco? (White Walkers) ",
-            "description": "My Lady!",
+            "description": "Anos de serie pra acabar assim...",
             "answer": 0,
             "alternatives": [
                 "Aço Valiriano e Vidro de Dragão",
@@ -103,18 +103,19 @@
     ],
     "external": [
         "https://quiz-games.gabrielwolf-dev.vercel.app/",
-        "https://quiz-contemplese.ricardoltt.vercel.app/"
+        "https://narutoquiz-base.vitor-kb.vercel.app/",
+        "https://netflix-quiz.ziguifrido.vercel.app/"
 
     ],
     "theme": {
         "colors": {
-            "primary": "#8257E6",
-            "secondary": "#04D361",
+            "primary": "#b2102f",
+            "secondary": "#357a38",
             "mainBg": "#202024",
             "contrastText": "#fff",
-            "wrong": "#ff5722",
+            "wrong": "#f00",
             "success": "#4caf50"
         },
-        "borderRadius": "5px"
+        "borderRadius": "7px"
     }
 }

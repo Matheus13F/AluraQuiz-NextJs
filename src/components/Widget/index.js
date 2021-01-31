@@ -3,15 +3,16 @@ import styled from 'styled-components';
 const Widget = styled.div`
   margin-top: 25px;
   margin-bottom: 25px;
-  border: 1px solid ${({ theme }) => theme.colors.secondary};
+  border: 1px solid ${({ theme }) => theme.colors.primary};
   background-color: ${({ theme }) => theme.colors.mainBg};
   overflow: hidden;
+  border-radius: ${({ theme }) => theme.borderRadius};;
 
   h1, h2, h3 {
     font-size: 16px;
     font-weight: 700;
     line-height: 1;
-    margin-bottom: 0;
+    margin-left: 10px;
   }
 
   p {
@@ -28,6 +29,8 @@ Widget.Header = styled.header`
   align-items: center;
   padding: 18px 32px;
   background-color: ${({ theme }) => theme.colors.primary};
+
+
 
 `;
 
