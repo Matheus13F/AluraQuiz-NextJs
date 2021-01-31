@@ -28,6 +28,7 @@ Widget.Header = styled.header`
   align-items: center;
   padding: 18px 32px;
   background-color: ${({ theme }) => theme.colors.primary};
+
 `;
 
 Widget.Content = styled.div`
@@ -44,6 +45,10 @@ Widget.Content = styled.div`
   ul {
     list-style: none;
     padding: 0;
+  }
+
+  > p {
+    line-height: 20px;
   }
 `;
 

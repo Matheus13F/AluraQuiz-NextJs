@@ -1,7 +1,7 @@
 {
     "bg": "https://images6.alphacoders.com/711/thumb-1920-711930.jpg",
-    "title": "titulo do Quiz",
-    "description": "Descrição do seu quiz aqui",
+    "title": "The Game Of Thrones - Quiz",
+    "description": "Prove seu conhecimento sobre essa série incrivel (menos a ultima temporada kkkrying)",
     "questions": [
         {
             "image": "https://media.giphy.com/media/3oEjI1erPMTMBFmNHi/source.gif",
@@ -101,7 +101,11 @@
         }
         
     ],
-    "external": [],
+    "external": [
+        "https://quiz-games.gabrielwolf-dev.vercel.app/",
+        "https://quiz-contemplese.ricardoltt.vercel.app/"
+
+    ],
     "theme": {
         "colors": {
             "primary": "#8257E6",
