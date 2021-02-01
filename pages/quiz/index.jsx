@@ -7,7 +7,7 @@ import QuizBackground from '../../src/components/QuizBackground';
 import QuizContainer from '../../src/components/QuizContainer';
 import AlternativesForm from '../../src/components/AlternativesForm';
 import Button from '../../src/components/Button';
-import BackLinkArrow from '../../src/components/LinkArrowBack';
+import Link from '../../src/components/LinkArrowBack';
 import Loading from '../../src/components/Loading';
 
 function ResultWidget({ results }) {
@@ -79,11 +79,10 @@ function QuestionWidget({
   const questionId = `question__${questionIndex}`;
   const isCorrect = selectedAlternative === question.answer;
   const hasAlternativeSelected = selectedAlternative !== undefined;
-
   return (
     <Widget>
       <Widget.Header>
-        <BackLinkArrow href="/" />
+        <Link href="/" />
         <h3>
           {`Pergunta ${questionIndex + 1} de ${totalQuestions}`}
         </h3>

@@ -9,7 +9,6 @@ export default function QuizDaGaleraPage({ dbExterno }) {
                 externalQuestions={dbExterno.questions}
                 externalBg={dbExterno.bg} 
             />        
-
         </ThemeProvider>
     );
 }
@@ -21,11 +20,10 @@ export async function getServerSideProps(context) {
         if(response.ok) {
             return response.json();
         }
+
         throw new Error('Falha ao se conectar com o servidor');
-
+        
     }).catch(err => alert(err))
-
-    console.log(dbExterno);
 
     return {
         props: {
