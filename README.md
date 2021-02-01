@@ -1,10 +1,10 @@
 <h1 align="center">
-	Advanced react-hooks
+	Quiz - The Game Of Thrones
 </h1>
 <br>
 <br>
 
-<p align="center"> Quiz - Desenvolvido durante a Imersão React/Next da Alura.</p>
+<p align="center"> Desenvolvido durante a Imersão React/Next da Alura.</p>
 
 <br>
 <br>
