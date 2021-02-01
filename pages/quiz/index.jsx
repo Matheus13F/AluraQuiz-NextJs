@@ -8,7 +8,6 @@ import QuizContainer from '../../src/components/QuizContainer';
 import AlternativesForm from '../../src/components/AlternativesForm';
 import Button from '../../src/components/Button';
 import BackLinkArrow from '../../src/components/LinkArrowBack';
-import Lottie from 'react-lottie';
 import Loading from '../../src/components/Loading';
 
 function ResultWidget({ results }) {
